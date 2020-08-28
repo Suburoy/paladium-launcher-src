@@ -1,0 +1,91 @@
+<div id="launcher-home-panel" style="display: none;">
+    <div class="header-banner" style="background-image: url(assets/images/launcher/background.png);">
+        <div class="shadow"></div>
+    </div>
+
+    <div class="header-banner-content">
+        <div class="container">
+            <div class="banner-header">
+                <% include includes/banner-header.ejs %>
+            </div>
+
+            <div class="banner-body">
+                <div class="banner-body-content">
+                    <div class="block-play">
+                        <span>Rejoins une communauté de <em>234,502</em> joueurs.</span>
+                        <div class="button-group">
+                            <a class="btn" id="launcher-home-play-button">Jouer</a>
+                            <a class="btn" id="launcher-home-options-button">Options</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-body-sidebar">
+                    <div class="block-container servers-status">
+                        <div class="block-title">États des serveurs<em id="server-total-players">0<i class="offline"></i></em></div>
+                        <div class="block-body">
+                            <div class="server">
+                                <div class="server-icon"></div>
+                                <div class="server-text">
+                                    <span class="title">Paladium</span>
+                                    <span class="subtitle">
+                                        <b id="server-paladium-players">0</b> Joueurs connectés - <em id="server-paladium-latency">0</em>ms
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div class="block-container block-gradient shop-last">
+                        <div class="block-title">Grades</div>
+                        <div class="block-body">
+                            <a href="https://store.paladium-pvp.fr" class="btn">
+                                <div class="deal">
+                                    <div class="deal-container">
+                                        <img src="assets/images/launcher/store/endium-icon.png" alt="Endium Rank" class="deal-img">
+                                        <div class="deal-details">
+                                            <div class="deal-name">Grade Endium</div>
+                                            <div class="deal-price">
+                                                <span class="new">39.99 €</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://store.paladium-pvp.fr" class="btn">
+                                <div class="deal">
+                                    <div class="deal-container">
+                                        <img src="assets/images/launcher/store/paladin-icon.png" alt="Paladin Rank" class="deal-img">
+                                        <div class="deal-details">
+                                            <div class="deal-name">Grade Paladin</div>
+                                            <div class="deal-price">
+                                                <span class="new">24.99 €</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://store.paladium-pvp.fr" class="btn">
+                                <div class="deal">
+                                    <div class="deal-container">
+                                        <img src="assets/images/launcher/store/titan-icon.png" alt="Titan Rank" class="deal-img">
+                                        <div class="deal-details">
+                                            <div class="deal-name">Grade Titan</div>
+                                            <div class="deal-price">
+                                                <span class="new">19.99 €</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <p class="mt-20">Visite notre <a href="https://store.paladium-pvp.fr">Boutique</a> pour voir toutes nos offres et grades.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/scripts/panels/launcher/home.js"></script>
+</div>

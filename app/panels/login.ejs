@@ -1,0 +1,39 @@
+<div id="login-view" style="display: none;">
+    <div class="login-content">
+        <div class="login-head">
+            <h1 class="title">Se connecter</h1>
+            <p class="desc">
+                Utilisez votre compte <a href="https://account.mojang.com/">Mojang</a> pour vous connecter à Paladium.
+                <br>Votre compte doit posséder le jeu Minecraft <a href="https://my.minecraft.net/fr-fr/store/minecraft/">Java Éditions</a> !
+            </p>
+            <hr>
+        </div>
+        <div class="login-body">
+            <form id="login-form">
+                <div class="form-group">
+                    <p>Adresse e-mail <a class="transparent help-link" id="login-email-help"><i class="fas fa-question-circle"></i></a></p>
+                    <input id="login-username-textfield" class="textfield" type="text"/>
+                </div>
+
+                <div class="form-group">
+                    <p>Mot de passe</p>
+                    <input id="login-password-textfield" class="textfield" type="password"/>
+                </div>
+
+                <div class="space-group mb-30">
+                    <!--<input type="checkbox" class="checkbox" id="remember-account" checked>
+                    <label for="remember-account">Rester connecté</label>-->
+                    <a class="forgot-password" href="https://my.minecraft.net/fr-fr/password/forgot/">Mot de passe oublié ?</a>
+                </div>
+
+                <div class="center-group">
+                    <button class="button button-gradient" id="login-button">Connexion <div class="circle-loader" id="login-button-loader" style="display: none;"></div></button>
+                </div>
+
+                <!--<span class='help-button' id="login-help"><i class="fas fa-question"></i></span>-->
+            </form>
+        </div>
+    </div>
+
+    <script src="./assets/js/scripts/panels/login.js"></script>
+</div>

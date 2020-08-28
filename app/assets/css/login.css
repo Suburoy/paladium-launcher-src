@@ -1,0 +1,94 @@
+/**
+ * Paladium Launcher - https://github.com/Paladium-Dev/Paladium-Launcher
+ * Copyright (C) 2020 Paladium
+ */
+
+#login-view {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/login/background.png');
+    background-size: cover;
+
+    height: calc(100% + 22px);
+    width: 100%;
+    margin-top: -22px;
+}
+
+.login-content {
+    position: absolute;
+
+    background-color: #333336;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 550px;
+
+    letter-spacing: 1px;
+
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.login-content .login-head {
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.login-content .login-head .title {
+    font-family: 'Roboto Light';
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.login-content .login-head .desc {
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+.login-content .login-body {
+    padding: 0 80 20 80;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.space-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-group {
+    text-align: center;
+}
+
+.login-body p {
+    margin: 7px 0;
+    font-size: 14px;
+}
+
+.login-body .help-link {
+    color: inherit;
+}
+.login-body .help-link:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.login-body .textfield {
+    width: 100%;
+}
+
+.login-body button {
+    padding: 18px 40px;
+    font-size: 17px;
+}
+
+.login-body .circle-loader {
+    margin-left: 10px;
+}
+
+.login-body .forgot-password {
+    font-size: 13px;
+}

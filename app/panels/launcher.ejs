@@ -1,0 +1,28 @@
+<div id="launcher-view" style="display: none;">
+    <div class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="nav-left">
+                    <a class="link active" id="launcher-nav-home-button">Accueil</a>
+                </div>
+
+                <img src="assets/images/logo.png" class="logo">
+
+                <div class="nav-right">
+                    <!--<a class="button-gradient" id="launcher-nav-store-button" style="float: right"><i class="fas fa-gem" style="margin-right: 8px;"></i> Boutique</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Panel -->
+    <% include launcher/home.ejs %>
+
+    <!-- Store Panel -->
+    <% include launcher/store.ejs %>
+
+    <!-- Maintenance Panel -->
+    <% include launcher/maintenance.ejs %>
+
+    <script src="./assets/js/scripts/panels/launcher.js"></script>
+</div>
